@@ -1035,5 +1035,9 @@ vendor/etc/thermal-engine.conf
 vendor/lib64/libthermalfeature.so
 vendor/lib64/libthermalioctl.so
 
+# Widevine
+vendor/lib/liboemcrypto.so
+vendor/lib64/liboemcrypto.so
+
 # Wifi
 vendor/bin/cnss-daemon
