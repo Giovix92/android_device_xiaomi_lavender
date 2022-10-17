@@ -1,4 +1,4 @@
-# Device proprietary files - from lavender-user 10 QKQ1.190910.002 V12.5.3.0.QFGCNXM release-keys
+# Device proprietary files - from lavender-user 10 QKQ1.190910.002 V12.5.3.0.QFGMIXM release-keys
 
 # Audio ACDB
 vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
@@ -1034,6 +1034,10 @@ vendor/etc/thermal-engine.conf
 -vendor/lib64/libthermalclient.so
 vendor/lib64/libthermalfeature.so
 vendor/lib64/libthermalioctl.so
+
+# Widevine
+vendor/lib/liboemcrypto.so
+vendor/lib64/liboemcrypto.so
 
 # Wifi
 vendor/bin/cnss-daemon
